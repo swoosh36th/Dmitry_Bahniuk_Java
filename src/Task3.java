@@ -15,17 +15,17 @@ public class Task3 {
     }
 
     private static void enterLengthOfArray() {
-        System.out.print("Enter the length of the array: ");
+        System.out.print("Введите длину массива: ");
         count = scanner.nextInt();
     }
 
     private static void enterValueOfArray() {
         array = new int[count];
-        System.out.println("Enter array:");
+        System.out.println("Введите массив:");
         for (i = 0; i < count; i++) {
             array[i] = scanner.nextInt();
         }
-        System.out.println("Input array: " + Arrays.toString(array));
+        System.out.println("Введенный массив: " + Arrays.toString(array));
     }
 
     private static void multiplesOfThree() {
@@ -37,9 +37,9 @@ public class Task3 {
             }
         }
         if (k == 0) {
-            System.out.println("No elements in the array that are multiples of 3");
+            System.out.println("В массиве нет элементов кратных 3");
         } else {
-            System.out.print("- array elements are multiples of 3");
+            System.out.print("- элементы массива кратные 3");
         }
     }
 }
