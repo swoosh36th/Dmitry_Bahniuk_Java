@@ -1,7 +1,9 @@
+package tasks;
+
 import java.util.Scanner;
 
 public class Task1 {
-    public static void main(String[] args) {
+    public static void number() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");
         int inputNum = scanner.nextInt();

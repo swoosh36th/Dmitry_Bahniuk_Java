@@ -1,3 +1,5 @@
+package tasks;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class Task3 {
     static int[] array;
 
 
-    public static void main(String[] args) {
+    public static void array() {
         enterLengthOfArray();
         enterValueOfArray();
         multiplesOfThree();
